@@ -12,6 +12,13 @@ namespace Presentation
     {
         static void Main(string[] args)
         {
+            // Introduction
+            Console.WriteLine("Welcome to the Cube Intersection Calculator!");
+            Console.WriteLine("This application calculates whether two cubic objects intersect and computes the volume of their intersection.");
+            Console.WriteLine("You will be prompted to enter the dimensions and coordinates for two cubes.");
+            Console.WriteLine("Press Enter to continue...");
+            Console.ReadLine(); // wait for user to press Enter
+
             do
             {
                 CubeApplicationService service = new CubeApplicationService();
